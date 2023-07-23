@@ -19,7 +19,7 @@ const TransacList = ({
 };
 
 TransacList.prototype ={
-    type:PropTypes.string, 
+    type:PropTypes.string,  
     amount:PropTypes.node,
     currency:PropTypes.string,
 }
