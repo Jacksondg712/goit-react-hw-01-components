@@ -2,8 +2,7 @@ import React from "react";
 import TransacList from "components/TransacList";
 import transactions from "./json/transactions.json";
 
-const Transactions = ({
-}) => {
+const Transactions = () => {
     return(
         <table style={{
             marginLeft:"auto",

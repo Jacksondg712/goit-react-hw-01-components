@@ -3,8 +3,7 @@ import FriendsList from "./components/FriendsList";
 import friends from "./json/friends.json";
 
 
-const Friends =({    
-}) =>{
+const Friends =() =>{
     return(
         <div style={{
           display:"flex",
