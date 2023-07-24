@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import FriendsList from "./components/FriendsList";
 import friends from "./json/friends.json";
 

@@ -16,7 +16,7 @@ const FriendsList = ({
         marginBottom:"10px",
     }}>
         { 
-            isOnline == true && (
+            isOnline === true && (
                 <div style={{
                     width:"10px",
                     height:"10px",
@@ -27,7 +27,7 @@ const FriendsList = ({
             </div>)
         }
         {
-            isOnline == false &&(
+            isOnline === false &&(
                 <div style={{
                     width:"10px",
                     height:"10px",

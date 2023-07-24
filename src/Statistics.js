@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import StatisList from "./components/StatisList";
 import data from "./json/data.json";
 import StatisTitle from "components/StatisTitle";
