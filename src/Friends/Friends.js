@@ -1,20 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./Friends.css";
 
 
-const FriendsList = ({
+const Friends = ({
     avatar,
     name,
     isOnline,
 }) => {
     return(
-    <li style={{
-        display:"flex",
-        padding:"10px",
-        border:"solid",
-        gap:"10px",
-        marginBottom:"10px",
-    }}>
+    <li className="friendslist">
         { 
             isOnline === true && (
                 <div style={{
@@ -22,6 +17,7 @@ const FriendsList = ({
                     height:"10px",
                     borderRadius:"50%",
                     backgroundColor:"green",
+                    marginTop:"8px",
                 }}>
 
             </div>)
@@ -33,25 +29,23 @@ const FriendsList = ({
                     height:"10px",
                     borderRadius:"50%",
                     backgroundColor:"red",
+                    marginTop:"8px",
                 }}>
 
             </div>)
         }
-        <img src={avatar} alt="avatar"
-        style={{
-            width:"20px",
-            height:"20px",
-            borderRadius:"5px",
-        }} />
+        <img src={avatar} alt="avatar" className="avatarF"/>
         <span>{name}</span>
     </li>
     )
 };
 
-FriendsList.propTypes={
+Friends.propTypes={
     isOnline:PropTypes.bool,
     avatar:PropTypes.string,
     name:PropTypes.string,
 };
 
-export default FriendsList;
+export default Friends;
+
+

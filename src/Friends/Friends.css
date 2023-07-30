@@ -1,0 +1,31 @@
+.containerF{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.fri-list{
+    list-style: none;
+
+}
+
+.friendslist{
+    display:flex;
+    width: 120px;
+    padding:10px;
+    border:solid;
+    gap:10px;
+    margin-Bottom:10px;
+    border-radius:10px;
+    background-color: aliceblue;
+    margin-right: 30px;
+}
+.avatarF{
+    width:20px;
+    height:20px;
+    border: 2px solid;
+    border-radius:5px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 2px;
+    background-color: aquamarine;
+}

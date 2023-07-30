@@ -1,0 +1,22 @@
+.conteinerT{
+    background-color: violet;
+}
+
+.tb{
+    border:solid; 
+    padding-left:auto;
+    padding-right:auto;
+    background-color: aliceblue;
+}
+.th{
+    border: solid;
+    background-color: aliceblue;
+    
+}
+
+.table{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
